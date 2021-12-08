@@ -1,4 +1,5 @@
-```python
+#!/usr/bin/env python3
+
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import ssl
@@ -20,6 +21,4 @@ print('Count',len(lst))
 print('Sum',sum(lst))
 
 #url: http://py4e-data.dr-chuck.net/comments_1412627.html
-
-```
 
